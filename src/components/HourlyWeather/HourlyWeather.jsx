@@ -112,7 +112,7 @@ export const HourlyWeather = ({ cityId, language, theme }) => {
             {hourlyWeather && !loading && (
                 <div className="hourly-weather">
                     <div className="hourly-weather__chart">
-                        <Line options={options} data={data} />;
+                        <Line options={options} data={data} />
                     </div>
                 </div>
             )}

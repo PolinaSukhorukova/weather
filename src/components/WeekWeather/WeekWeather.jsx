@@ -121,7 +121,7 @@ export const WeekWeather = ({ cityId, language, theme }) => {
             {weekWeather && !loading && (
                 <div className="hourly-weather">
                     <div className="hourly-weather__chart">
-                        <Line options={options} data={data} />;
+                        <Line options={options} data={data} />
                     </div>
                 </div>
             )}
