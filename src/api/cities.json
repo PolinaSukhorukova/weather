@@ -1,0 +1,122 @@
+[
+    {
+        "id": 703448,
+        "name": "Kyiv",
+        "ukr_name": "Київ"
+    },
+    {
+        "id": 706483,
+        "name": "Kharkiv",
+        "ukr_name": "Харків"
+    },
+    {
+        "id": 702550,
+        "name": "Lviv",
+        "ukr_name": "Львів"
+    },
+    {
+        "id": 702569,
+        "name": "Lutsk",
+        "ukr_name": "Луцьк"
+    },
+    {
+        "id": 702658,
+        "name": "Luhansk",
+        "ukr_name": "Луганськ"
+    },
+    {
+        "id": 863912,
+        "name": "Vinica",
+        "ukr_name": "Вінниця"
+    },
+    {
+        "id": 707471,
+        "name": "Ivano-Frankivsk",
+        "ukr_name": "Івано-Франківськ"
+    },
+    {
+        "id": 706448,
+        "name": "Kherson",
+        "ukr_name": "Херсон"
+    },
+    {
+        "id": 706369,
+        "name": "Khmelnitskyi",
+        "ukr_name": "Хмельницький"
+    },
+    {
+        "id": 696643,
+        "name": "Poltava",
+        "ukr_name": "Полтава"
+    },
+    {
+        "id": 709930,
+        "name": "Dnipro",
+        "ukr_name": "Дніпро"
+    },
+    {
+        "id": 690548,
+        "name": "Uzhgorod",
+        "ukr_name": "Ужгород"
+    },
+    {
+        "id": 691650,
+        "name": "Ternopil",
+        "ukr_name": "Тернопіль"
+    },
+    {
+        "id": 695365,
+        "name": "Rivne",
+        "ukr_name": "Рівне"
+    },
+    {
+        "id": 686967,
+        "name": "Zhytomyr",
+        "ukr_name": "Житомир"
+    },
+    {
+        "id": 705812,
+        "name": "Kropyvnytskyi",
+        "ukr_name": "Кропивницький"
+    },
+    {
+        "id": 698740,
+        "name": "Odessa",
+        "ukr_name": "Одеса"
+    },
+    {
+        "id": 710791,
+        "name": "Cherkasy",
+        "ukr_name": "Черкаси"
+    },
+    {
+        "id": 710718,
+        "name": "Cherniyiv",
+        "ukr_name": "Чернігів"
+    },
+    {
+        "id": 710719,
+        "name": "Chernivtsi",
+        "ukr_name": "Чернівці"
+    },
+    {
+        "id": 709717,
+        "name": "Donetsk",
+        "ukr_name": "Донецьк"
+    },
+    {
+        "id": 692194,
+        "name": "Sumy",
+        "ukr_name": "Суми"
+    },
+    {
+        "id": 693805,
+        "name": "Simferopol",
+        "ukr_name": "Сімферополь"
+    },
+    {
+        "id": 700568,
+        "name": "Mykolaiv",
+        "ukr_name": "Миколаїв"
+    }
+]
