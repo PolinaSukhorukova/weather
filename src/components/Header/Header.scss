@@ -1,0 +1,73 @@
+.header {
+    box-sizing: border-box;
+    border-bottom: 2px solid #eef0f2;
+
+    &__content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+    }
+
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    &__button {
+        position: relative;
+        padding: 10px;
+        color: #190a11;
+    }
+
+    &__settings {
+        display: flex;
+        gap: 10px;
+    }
+}
+
+.is-active {
+    color: #68714a;
+
+    &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        height: 2px;
+        width: 100%;
+        background-color: #d3d3dd;
+    }
+}
+
+#dark .header {
+    color: #75767f;
+    border-bottom: 2px solid #d3d3dd;
+
+    &__button {
+        color: #75767f;
+    }
+}
+
+#dark .is-active {
+    color: #f1f2f9;
+
+    &::after {
+        background-color: #f1f2f9;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo__image {
+        width: 24px;
+    }
+    .header__content {
+        padding: 0 10px;
+    }
+    .header__button {
+        font-size: 14px;
+    }
+}

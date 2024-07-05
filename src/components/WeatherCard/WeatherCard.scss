@@ -1,0 +1,141 @@
+.weather-card {
+    position: relative;
+    width: 750px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #d3d3dd;
+    border-radius: 10px;
+
+    &__data {
+    display: flex;
+    gap: 20px;
+    }
+
+    &__empty {
+        font-size: 12px;
+        font-style: italic;
+    }
+
+    &--active {
+        border: 1px solid #00c292;
+    }
+}
+
+.title {
+    &__wrap {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-top: 2px;
+        margin-left: 4px;
+    }
+    &__search {
+        position: relative;
+    }
+    &__input {
+        padding: 6px 4px;
+        width: 152px;
+        border: 1px solid #d3d3dd;
+        border-radius: 3px;
+        box-sizing: border-box;
+        outline: none;
+    }
+    &__favorites-add {
+        padding: 6px;
+        background-color: #3498db;
+        border-radius: 3px;
+        color: #fff;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 70%;
+        }
+    }
+}
+
+.autocomplete {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1111;
+    max-height: 240px;
+    height: auto;
+    overflow: auto;
+    background-color: #fff;
+    border: 1px solid #d3d3dd;
+    box-sizing: border-box;
+    border-radius: 0 0 3px 3px;
+
+    &__item {
+        padding: 4px;
+
+        &:hover {
+            background-color: #f5f5f5;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+    }
+}
+
+.delete-city {
+    position: absolute;
+    top: 10px;
+    right: 13px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    width: 30px;
+    height: 30px;
+    color:#fff;
+    background-color: red;
+    border-radius: 3px;
+    cursor: poiner;
+
+    &:hover {
+        opacity: 50%;
+    }
+}
+
+#dark .title__input {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+#dark .autocomplete {
+    background-color: #2c3e50;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+@media (max-width: 820px) {
+    .delete-city {
+        top: 50px
+    }
+
+    .weather-card {
+        width: 100%;
+
+        &__data {
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width: 680px) {
+    .weather-card {
+        width: 450px;
+    }
+}
+
+@media (max-width: 480px) {
+    .weather-card {
+        padding: 5px;
+        width: 300px;
+    }
+}

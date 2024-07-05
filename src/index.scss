@@ -1,0 +1,11 @@
+@import './style/utils/reset.scss';
+@import './style/common/common.scss';
+
+body, button, input, select, textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    padding: 0 20px;
+}
+

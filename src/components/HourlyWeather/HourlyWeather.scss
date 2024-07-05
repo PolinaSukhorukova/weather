@@ -1,0 +1,16 @@
+@media (min-width: 820px) {
+    .hourly-weather {
+        &__chart {
+            width: 400px;
+            height: 200px;
+        }
+    }
+}
+
+@media (max-width: 819px) {
+    .hourly-weather {
+        &__chart {
+            width: 100%;
+        }
+    }
+}

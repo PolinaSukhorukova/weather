@@ -1,0 +1,66 @@
+.modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid red;
+    border-radius: 3px;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 1111;
+
+    &__content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+
+    &__text {
+        margin-top: 25px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+    }
+
+    &__buttons {
+        position: absolute;
+        left: 50%;
+        bottom: 20px;
+        transform: translateX(-50%);
+        display: flex;    
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    &__button-delete {
+        padding: 10px;
+        color: #fff;
+        background-color: #00c292;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    &__button-cancel {
+        padding: 10px;
+        color: #fff;
+        background-color: #ff3d00;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+}
+
+#dark .modal {
+    background-color: #75767f;
+    border: 1px solid #75767f;
+
+    &__text {
+        color: #fff;
+    }
+}

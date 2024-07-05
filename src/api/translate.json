@@ -1,0 +1,38 @@
+[
+    {
+        "ua" :  {
+            "main": "Головна",
+            "selected": "Обране",
+            "searchByCity": "Пошук за назвою міста",
+            "addToSelected": "Додати в обране",
+            "emptyCities": "Оберіть місто, щоб переглянути погоду",
+            "cityDeliting": "Місто буде видалено",
+            "delete" : "Видалити",
+            "cancel" : "Скасувати",
+            "fillsLike": "Відчувається як",
+            "wind": "Вітер",
+            "humidity": "Вологість",
+            "m/s": "м/с",
+            "temperatureChart": "Графік температури",
+            "oneDay": "День",
+            "fiveDays": "Тиждень"
+        },
+        "en" :  {
+            "main": "Main",
+            "selected": "Selected",
+            "searchByCity": "Search by city name",
+            "addToSelected": "Add to selected",
+            "emptyCities": "Select a city to view the weather",
+            "cityDeliting": "The city will be deleted",
+            "delete" : "Delete",
+            "cancel" : "Cancel",
+            "fillsLike": "Feels like",
+            "wind": "Wind",
+            "humidity": "Humidity",
+            "m/s": "m/s",
+            "temperatureChart": "Temperature chart",
+            "oneDay": "Day",
+            "fiveDays": "Week"
+        }
+    }
+]
